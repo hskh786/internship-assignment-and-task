@@ -1,4 +1,12 @@
-def greet_user(name, age):
-    greeting = f"Hello {name}, you are {age} years old."
-    return greeting
-print(greet_user("Hashir", 30))
+# task2.py
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def square(x):
+    return x * x
+
+def cube(x):
+    return x * x * x

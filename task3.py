@@ -1,4 +1,5 @@
-def square_numbers(numbers):
-    squared = [num ** 2 for num in numbers]
-    return squared
-print('The squared numbers are', square_numbers([1, 2, 3, 4, 5]))
+import requests
+import numpy
+
+print("Requests version:", requests.__version__)
+print("NumPy version:", numpy.__version__)

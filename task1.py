@@ -1,6 +1,7 @@
 import math
-def calculate_area(radius):
-        area = math.pi * (radius ** 2)
-        return area
-
-print('The area is', calculate_area(5))
+import statistics
+numbers = [16, 25, 36, 49, 64]
+for num in numbers:
+    print(f"√{num} = {math.sqrt(num)}")
+average = statistics.mean(numbers)
+print("Average:", average)

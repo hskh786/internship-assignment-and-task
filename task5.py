@@ -1,6 +1,8 @@
-counter=0
-def change_counter():
-    global counter
-    counter += 1
-    return counter
-print("Counter value:", change_counter(), counter)
+import gradio as gr
+from typer import launch
+
+def square_number(x):
+    return x ** 2
+gr.Interface(fn=square_number, inputs="number", outputs="number").launch(share=True)
+gr.Interface(fn=square_number, inputs="number", outputs="number").launch(share=True)
+

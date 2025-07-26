@@ -1,7 +1,12 @@
-# File: math_tools.py
+import gradio as gr
+def reverse_sentence(sentence):
+    return sentence[::-1]
+interface = gr.Interface(
+    fn=reverse_sentence,
+    inputs="text",
+    outputs="text",
+    title="Sentence Reverser",
+    description="Enter a sentence and see it reversed!"
+)
 
-def multiply(x, y):
-    """
-    Returns the product of x and y
-    """
-    return x * y
+interface.launch(share=True)    
