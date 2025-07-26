@@ -8,3 +8,15 @@ print("Total Marks:", total)
 # Step 3: Calculate percentage
 percentage = (total / 300) * 100
 print("Percentage:", percentage)
+# Step 4: Assign grade
+if percentage >= 85:
+    grade = "A"
+elif percentage >= 70:
+    grade = "B"
+elif percentage >= 50:
+    grade = "C"
+else:
+    grade = "Fail"
+
+# Step 5: Show grade
+print("Grade:", grade)
