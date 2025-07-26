@@ -1,14 +1,6 @@
-# Step 1: Take income and expenses as input
-income = float(input("Enter your monthly income: "))
-expenses = float(input("Enter your monthly expenses: "))
-
-# Step 2: Calculate savings
-savings = income - expenses
-print("Your savings this month are:", savings)
-# Step 3: Classify the savings
-if savings > 10000:
-    print("Status: Saving Well 💰")
-elif savings >= 5000:
-    print("Status: Average 🙂")
-else:
-    print("Status: Try to Save 😓")
+import math
+radius = float(input("Enter the radius of the circle: "))
+area = math.pi * math.pow(radius, 2)
+print(f"The area of the circle with radius {radius} is: {area}")
+circumference = 2 * math.pi * radius
+print(f"The circumference of the circle with radius {radius} is: {circumference}")

@@ -1,10 +1,13 @@
-# Step 1: Input marks for 3 subjects
-sub1 = float(input("Enter marks for Subject 1: "))
-sub2 = float(input("Enter marks for Subject 2: "))
-sub3 = float(input("Enter marks for Subject 3: "))
-# Step 2: Calculate total marks
-total = sub1 + sub2 + sub3
-print("Total Marks:", total)
-# Step 3: Calculate percentage
-percentage = (total / 300) * 100
-print("Percentage:", percentage)
+# Step 1: Get input from user
+value = input("Enter anything: ")
+
+# Step 2: Check and display the type of input
+print("You entered:", value)
+print("The type of your input is:", type(value))
+
+# Step 3: Get a Python command from user
+code = input("Enter Python code to run (e.g. print('Hello')): ")
+
+# Step 4: Execute the Python code
+print("Running your code...")
+exec(code)
