@@ -1,5 +1,6 @@
-import random
-import string
-characters = string.ascii_letters + string.digits + string.punctuation
-password = ''.join(random.choice(characters) for _ in range(8))
-print("Your random 8-character password is:", password)
+def is_even_or_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+print(is_even_or_odd(int(input("Enter a number: "))))

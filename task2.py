@@ -1,8 +1,4 @@
-# Ask the user to enter an expression
-expression = input("Enter a Python expression (like 2 + 3 * 4): ")
-
-# Store it in a result variable using exec
-exec(f"result = {expression}")
-
-# Show the result
-print("Result of your expression is:", result)
+def greet_user(name, age):
+    greeting = f"Hello {name}, you are {age} years old."
+    return greeting
+print(greet_user("Hashir", 30))
