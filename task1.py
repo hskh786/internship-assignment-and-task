@@ -1,0 +1,1 @@
+print("My name is hashir\n my hobby is traveling\n I am 20 years old\n I am a student\n i wanna learn py to become a developer")
